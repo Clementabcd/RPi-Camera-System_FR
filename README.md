@@ -71,6 +71,7 @@ source surveillance_env/bin/activate
 
 # Installez seulement les packages non-système
 pip install flask opencv-python-headless numpy pillow
+# Si le terminal affiche une erreur error: externally-managed-environment, essayer cela : pip install flask opencv-python-headless numpy pillow --break-system-packages
 
 # Lancer le script (avec démarrage automatique)
 python3 surveillance_camera.py --auto-start
