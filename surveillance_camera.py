@@ -356,6 +356,8 @@ HTML_TEMPLATE = '''
         .file-list { background: #f8f9fa; padding: 15px; border-radius: 5px; margin: 10px 0; }
         .recording-indicator { color: red; font-weight: bold; }
         .motion-indicator { color: green; font-weight: bold; }
+        .text-center { text-align: center; }
+        .text-gray-500 { color: var(--color-gray-500); }
     </style>
 </head>
 <body>
@@ -386,7 +388,7 @@ HTML_TEMPLATE = '''
             <div id="files-content">Chargement...</div>
         </div>
 
-        <br><p>Créé par Clément JONGHMANS.</p>
+        <br><p class="text-gray-500 text-center">Créé par Clément JONGHMANS.</p>
     </div>
 
     <script>
