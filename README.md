@@ -72,8 +72,8 @@ source surveillance_env/bin/activate
 # Installez seulement les packages non-système
 pip install flask opencv-python-headless numpy pillow
 
-# Lancer le script
-python3 surveillance_camera.py
+# Lancer le script (avec démarrage automatique)
+python3 surveillance_camera.py --auto-start
 
 ```
 
