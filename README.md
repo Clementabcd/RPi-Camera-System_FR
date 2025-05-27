@@ -28,7 +28,7 @@ sudo apt update && sudo apt upgrade -y
 # Installation des dépendances
 sudo apt install python3-pip python3-venv python3-dev git -y
 
-# Activation de la caméra
+# Activation de la caméra (seulement pour les systèmes anciens, normalement activé par défault)
 sudo raspi-config
 # Aller dans "Interface Options" > "Camera" > "Enable"
 
