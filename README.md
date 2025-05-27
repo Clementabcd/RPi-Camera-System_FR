@@ -206,7 +206,7 @@ echo "Système de surveillance arrêté"
 
 ```bash
 # Rendre le script exécutable
-chmod +x /home/<VOTRE_NOM_D_UTILISATEUR>/surveillance/shutdown_surveillance.sh
+sudo chmod +x /home/<VOTRE_NOM_D_UTILISATEUR>/surveillance/shutdown_surveillance.sh
 
 ```
 
