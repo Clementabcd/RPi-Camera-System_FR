@@ -345,3 +345,5 @@ sudo systemctl enable surveillance.service
 -   **Gestion propre** des ressources système
 
 Votre Raspberry Pi sera maintenant entièrement autonome : branchez-le et il commence automatiquement la surveillance, débranchez-le et il s'arrête proprement !
+
+Pour l'éteindre : `sudo shutdown now`.
